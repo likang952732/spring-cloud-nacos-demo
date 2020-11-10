@@ -14,6 +14,6 @@ public interface ProviderClient {
      * 调用服务的方法
      * @return
      */
-    @GetMapping("/service")
+    @GetMapping("/config/service")
     public String service();
 }

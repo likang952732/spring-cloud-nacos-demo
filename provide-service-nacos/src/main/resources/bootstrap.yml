@@ -1,6 +1,6 @@
 # nacos配置
 server:
-  port: 3377
+  port: 8080
 
 spring:
   application:
@@ -9,7 +9,10 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        #namespace: b16f7baf-56e7-4f4e-a26c-425ee0668016
       config:
         server-addr: 127.0.0.1:8848
-        file-extension: yml
-        namespace: b16f7baf-56e7-4f4e-a26c-425ee0668016
+        file-extension: yaml
+        #namespace: b16f7baf-56e7-4f4e-a26c-425ee0668016
+#        enabled: true
+#        refresh-enabled: true
